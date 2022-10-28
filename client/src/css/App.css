@@ -55,14 +55,28 @@ html {
     color: #fff;
 }
 .active {
-  text-decoration: underline blue;
+  text-decoration: underline steelblue;
+  font-size: 1.5rem;
+  text-shadow: 5px -5px 5px blue;
 }
 body {
     background-color: black;
     font-family: 'Arial', 'Times New Roman', Times, serif;
     text-align: center;
+	background-image: url(../media/images/blue.jpg);
+	background-size: cover;
+	color: whitesmoke;
+	text-shadow: 1px 1px 2px black;
 }
 .App {
   display: flex;
   flex-direction: column;
+}
+#header-container{
+	background-image: url(../media/images/bg3.webp);
+	background-size: cover;
+}
+footer{
+	text-align: center;
+	font-size:large;
 }
