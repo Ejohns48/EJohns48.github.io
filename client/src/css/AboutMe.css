@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+  }
+.parallax {
+    background-image: url('../media/images/space.jpg');
+  
+    min-height: 75vh;
+    
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .div1 {
+    background: url('../media/images/space3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-top: 50px;
+    min-height: 50vh;
+  }
+  .div2{
+    background-image: url('../media/images/space2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    margin-bottom: 200px;
+    
+    padding-top: 50px;
+  }
+  .div3{
+    background-image: url('../media/images/space4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    margin-bottom:200px;
+    padding-top: 50px;
+  }
