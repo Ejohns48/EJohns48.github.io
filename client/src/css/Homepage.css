@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 15f173ef2371e5e99490a72405dc34fba4b35176
 main>h1{
     font-size: larger;
     font-size: 36px;
@@ -126,7 +129,10 @@ em i {
     margin-bottom: -3rem;
 }
 #letterContainer{
+<<<<<<< HEAD
     font-family: papyrus, copperplate;
+=======
+>>>>>>> 15f173ef2371e5e99490a72405dc34fba4b35176
     position: absolute;
     top: 30%;
     left: 50%;
@@ -139,13 +145,18 @@ em i {
     list-style: none;
     font-size: 7rem;
     letter-spacing: 20px;
+<<<<<<< HEAD
     animation: animate 5s linear infinite;
+=======
+    animation: animate 3s linear infinite;
+>>>>>>> 15f173ef2371e5e99490a72405dc34fba4b35176
 }
 @keyframes animate {
     0%{
         transform: translateX(-50px);
         letter-spacing: 20px;
         opacity: 0;
+<<<<<<< HEAD
         font-size: 18px;
         color: whitesmoke;
         text-shadow: 1px 1px 1px white;
@@ -157,19 +168,37 @@ em i {
     25%{
         color: rgb(43, 116, 162);
         text-shadow: 2px 2px 3px white;
+=======
+        color: whitesmoke;
+    }
+    10%{
+        opacity: 1;
+        color:rgb(106, 106, 201)
+    }
+    25%{
+        color: rgb(66, 66, 196);
+>>>>>>> 15f173ef2371e5e99490a72405dc34fba4b35176
     }
     50%{
         letter-spacing: -20px;
         opacity: 1;
+<<<<<<< HEAD
         color: rgb(34, 110, 143);
         text-shadow: 3px 3px 5px white;
+=======
+        color: blue;
+>>>>>>> 15f173ef2371e5e99490a72405dc34fba4b35176
     }
     100%{
         transform: translateX(50px);
         letter-spacing: 20px;
         opacity: 0;
+<<<<<<< HEAD
         color: rgb(2, 50, 126);
         text-shadow: 1px 1px 1px white;
+=======
+        color: rgba(0, 0, 0, 0.1);
+>>>>>>> 15f173ef2371e5e99490a72405dc34fba4b35176
     }
 }
 
@@ -263,6 +292,12 @@ ul:nth-child(7){
     color: black;
     text-shadow: .125rem .125rem whitesmoke;
 }
+<<<<<<< HEAD
+=======
+.card-box-3:hover{
+    box-shadow: -4px -4px 10px black, 4px 4px 10px black;
+}
+>>>>>>> 15f173ef2371e5e99490a72405dc34fba4b35176
 
 /* MEDIA QUERIES */
 @media (hover: hover) and (pointer: fine) {
